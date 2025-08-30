@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/o.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: silver;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#zodiac-menu {
+  background: transparent;
+  padding: 20px 30px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+#zodiac-menu h2 {
+  font-size: 2.8rem;
+  color: aqua;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#zodiac-menu svg path {
+  stroke: aqua;
+  stroke-width: 4;
+  fill: transparent;
+}
+
+#zodiac-menu p {
+  color: aqua;  
+  font-size: 1rem;
+  margin: 15px 0 30px;
+}
+
+#zodiac-menu nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#zodiac-menu nav ul li {
+  margin-bottom: 15px;
+}
+
+#zodiac-menu nav ul li a {
+  display: block;
+  background: rgba(0, 128, 128, 0.5);
+  color: silver;
+  text-decoration: none;
+  padding: 14px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+#zodiac-menu nav ul li a:hover {
+  background: aqua;
+  color: black;
+}
+.logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1000;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+

@@ -1,0 +1,102 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/o.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: silver;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: aqua;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+main p {
+  color: #cccccc;
+  max-width: 600px;
+  padding: 0 20px;
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: aqua;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background-color: aqua;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00cccc;
+}
+#cookie-banner {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: silver;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  align-items: center;
+  gap: 15px;
+  z-index: 10000;
+  box-shadow: 0 0 10px rgba(0, 128, 128, 0.7);
+}
+
+#cookie-banner p {
+  margin: 0;
+}
+
+#cookie-banner a {
+  color: aqua;
+  text-decoration: underline;
+}
+
+#accept-cookies {
+  background: aqua;
+  color: black;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+#accept-cookies:hover {
+  background: #00bcd4;
+}
