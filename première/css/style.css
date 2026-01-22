@@ -6,16 +6,33 @@
 
 .pdf-item {
   background-color: #f0f0f0;
+  border-radius: 10px;
   padding: 20px;
-  height: 100px; /* ajustable selon ton texte */
   display: flex;
+  flex-direction: column; /* pour garder h1 et bouton l'un sous l'autre */
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  height: 120px; /* ajustable selon ton h1 */
   text-align: center;
 }
 
 .pdf-item h1 {
-  font-size: 24px; /* adapte la taille de ton h1 */
   margin: 0;
+  font-size: 24px;
+}
+
+/* optionnel : masquer l'iframe si tu veux juste du texte */
+.pdf-item iframe {
+  display: none;
+}
+
+/* style du bouton */
+.download-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #6c5ce7;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
